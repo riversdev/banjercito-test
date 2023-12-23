@@ -1,0 +1,41 @@
+import { Medicamento } from '@/interfaces'
+
+export const medicamentosDB: Medicamento[] = [
+    {
+        BLOQUEO: new Date('01-15-2023'),
+        CADA: '8 Hora(s)',
+        CANTIDAD: '2',
+        DESCRIPCION_VIA: 'No Especificada',
+        DURANTE: '8 Día(s)',
+        ID_MED: '7501089803238',
+        INDICACIONES: 'INDICACIONES',
+        MEDICAMENTO: 'VALVULAN ELIXIR PED 0.05MG FGO C/60ML, (DIGOXINA)',
+        PRESENTACION: 'CAJA/60',
+        TOMAR: '5',
+        VIA: '0',
+    }, {
+        BLOQUEO: new Date('12-28-2023'),
+        CADA: '8 Hora(s)',
+        CANTIDAD: '2',
+        DESCRIPCION_VIA: 'No Especificada',
+        DURANTE: '8 Día(s)',
+        ID_MED: '7501089803238',
+        INDICACIONES: 'INDICACIONES',
+        MEDICAMENTO: 'ELIXIR PED 0.05MG FGO C/60ML, (DIGOXINA)',
+        PRESENTACION: 'CAJA/60',
+        TOMAR: '1',
+        VIA: '2',
+    }, {
+        BLOQUEO: new Date('12-18-2023'),
+        CADA: '8 Hora(s)',
+        CANTIDAD: '2',
+        DESCRIPCION_VIA: 'No Especificada',
+        DURANTE: '8 Día(s)',
+        ID_MED: '7501089803238',
+        INDICACIONES: 'INDICACIONES',
+        MEDICAMENTO: '(DIGOXINA)',
+        PRESENTACION: 'CAJA/30',
+        TOMAR: '2',
+        VIA: '0',
+    },
+]

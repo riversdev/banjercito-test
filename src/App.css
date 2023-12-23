@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.table th,
+.table td {
+  border: 1px solid #e0e0e0;
+  padding: 8px;
+  text-align: left;
+}
+
+.table th {
+  background-color: transparent;
+  font-weight: bold;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: transparent;
+}
+
+.table tbody tr:hover {
+  opacity: 0.8;
+}
